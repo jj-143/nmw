@@ -4,11 +4,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next dev",
+    "start:prod": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^11.0.2",
+    "next": "12",
+    "next-i18next": "^9.1.0",
     "react": "^16",
     "react-dom": "^16"
   },
